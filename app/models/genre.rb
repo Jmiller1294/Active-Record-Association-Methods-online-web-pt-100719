@@ -14,5 +14,6 @@ class Genre < ActiveRecord::Base
     self.artists.all.map do |n|
      puts n.name
     end
+    self
   end
 end
